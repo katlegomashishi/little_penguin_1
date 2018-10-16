@@ -1,0 +1,1 @@
+SUBSYSTEM=="input", SUBSYSTEMS=="usb", ACTION=="add", RUN+="/sbin/insmod /root/home/Little-penguin/ass04/main.ko"

@@ -1,0 +1,28 @@
+From 35a7f35ad1b150ddf59a41dcac7b2fa32982be0e Mon Sep 17 00:00:00 2001
+From: Katlego Mashishi <kat7450mash@mail.com>
+Date: Mon, 15 Oct 2018 07:20:24 +0200
+Subject: [PATCH] Added -thor_kernel to version string
+
+Added -thor_kernel to version string
+
+Signed-off-by: Katlego Mashishi <kat7450mash@gmail.com>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index e8b599b4dcde..bf3786e4ffec 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 4
+ PATCHLEVEL = 19
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc7
++EXTRAVERSION = -rc8-thor_kernel
+ NAME = Merciless Moray
+ 
+ # *DOCUMENTATION*
+-- 
+2.14.1
+
